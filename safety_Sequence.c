@@ -23,13 +23,13 @@ int printing(int sequence[])
 	}
 	printf("\n");
 }
-int Safety_sequence(int sequence[],int finish[],int work[],int k)
+void Safety_sequence(int sequence[],int finish[],int work[],int k)
 {
 	int i,j;
 	if(k>n)
 	{
 		printing(sequence);
-		return;
+		return ;
 	}
 	for(i=1;i<=n;i++)
 	{
@@ -94,6 +94,7 @@ int main()
 		scanf("%d",&available[i]);
 		work[i]=available[i];
 	}
+	
 	
 	//here starts logic
 	Safety_sequence(sequence,finish,work,k);
