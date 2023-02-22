@@ -108,7 +108,7 @@ int main(){
     scanf("%d",&head);
     Request[n]=head;
     n++;//one element is incresed 
-    RequestAllocationMovingTowordsLessFisrt(Request,head,n);
+    //RequestAllocationMovingTowordsLessFisrt(Request,head,n);
     RequestAllocationMovingTowordsGreaterFisrt(Request,head,n);
    // 95 180 34 119 11 123 62 64
 
