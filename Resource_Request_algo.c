@@ -36,7 +36,7 @@ int printing(int sequence[],int k)
 	}
 	printf("\n");
 }
-int Safety_sequence(int sequence[],int finish[],int work[],int k)
+void Safety_sequence(int sequence[],int finish[],int work[],int k)
 {
 	int i,j;
 	if(k>l+n)
